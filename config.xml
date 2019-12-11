@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <widget xmlns="http://www.w3.org/ns/widgets"
+    xmlns:gap="http://phonegap.com/ns/1.0"
+    id="org.sergiolopes.cenourapp"
+    version="1.0.0">
+    <name>
+        Só de Cenoura
+    </name>
+    <description>
+        Menu do restaurante Só de Cenoura.
+    </description>
+    <author href="http://sergiolopes.org"
+            email="qualquer@sergiolopes.org">
+        Sérgio Lopes
+    </author>
+    <!-- Restringir para android somente. -->
+    <gap:platform name="android" />
+    <!--Restringindo para a orientação retrato -->
+    <preference name="orientation" value="portrait" />
+    <!--Restringindo para modo tela cheia -->
+    <preference name="fullscreen" value="true" />
+    <!--Dizendo que a app não precisa de nenhuma permissão especial -->
+    <preference name="permissions" value="none" />
+    <!--Restringindo para versões acima da 4.1 do android -->
+    <preference name="android-minSdkVersion" value="16" />
+    <!-- -->
+    <icon src="icon.png" />
+    <!-- -->
+    <plugin name="cordova-plugin-splashscreen" />
+    <!-- -->
+    <splash src="splash.png" />
+    
+</widget>
